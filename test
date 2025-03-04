@@ -1,2 +1,3 @@
+rs.close();
 BufferedWriter out = null;
 hello world
