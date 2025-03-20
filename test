@@ -1,3 +1,4 @@
+} catch (IOException e) {
 String url = props.getProperty("db.url");
 BufferedWriter out = null;
 public void init(FileInputStream fs) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
