@@ -1,3 +1,4 @@
+ResultSet rs = ps.executeQuery();
 con=DriverManager.getConnection(url, userName, password);
 Class.forName(driverClass);
 } catch (IOException e) {
