@@ -1,3 +1,4 @@
+props.load(fs);
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 ResultSet rs = ps.executeQuery();
 con=DriverManager.getConnection(url, userName, password);
