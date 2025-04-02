@@ -1,3 +1,4 @@
+public static void main(String[] args)
 rs.close();
 String url = props.getProperty("db.url");
 String driverClass = "oracle.jdbc.driver.OracleDriver";
